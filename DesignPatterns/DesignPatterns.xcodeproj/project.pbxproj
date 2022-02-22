@@ -16,7 +16,10 @@
 		8E72161D27C4BA0300DAE00B /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72161C27C4BA0300DAE00B /* DesignPatternsTests.swift */; };
 		8E72162727C4BA0300DAE00B /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72162627C4BA0300DAE00B /* DesignPatternsUITests.swift */; };
 		8E72162927C4BA0300DAE00B /* DesignPatternsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72162827C4BA0300DAE00B /* DesignPatternsUITestsLaunchTests.swift */; };
+		8E72163727C4BCAC00DAE00B /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72163627C4BCAC00DAE00B /* ATM.swift */; };
 		8E72163927C4BCD000DAE00B /* MoneyPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72163827C4BCD000DAE00B /* MoneyPile.swift */; };
+		8E72163C27C4D77A00DAE00B /* DoorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72163B27C4D77A00DAE00B /* DoorCommand.swift */; };
+		8E72163E27C4D82800DAE00B /* HaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72163D27C4D82800DAE00B /* HaseOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,8 @@
 		8E72162827C4BA0300DAE00B /* DesignPatternsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8E72163627C4BCAC00DAE00B /* ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
 		8E72163827C4BCD000DAE00B /* MoneyPile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyPile.swift; sourceTree = "<group>"; };
+		8E72163B27C4D77A00DAE00B /* DoorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorCommand.swift; sourceTree = "<group>"; };
+		8E72163D27C4D82800DAE00B /* HaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaseOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,7 @@
 		8E72160427C4BA0000DAE00B /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				8E72163A27C4D75300DAE00B /* Command */,
 				8E72163527C4BA0B00DAE00B /* ChainOfResponsibility */,
 				8E72160527C4BA0000DAE00B /* AppDelegate.swift */,
 				8E72160727C4BA0000DAE00B /* SceneDelegate.swift */,
@@ -138,6 +144,15 @@
 				8E72163827C4BCD000DAE00B /* MoneyPile.swift */,
 			);
 			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		8E72163A27C4D75300DAE00B /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				8E72163B27C4D77A00DAE00B /* DoorCommand.swift */,
+				8E72163D27C4D82800DAE00B /* HaseOperation.swift */,
+			);
+			path = Command;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E72163927C4BCD000DAE00B /* MoneyPile.swift in Sources */,
+				8E72163C27C4D77A00DAE00B /* DoorCommand.swift in Sources */,
 				8E72160A27C4BA0000DAE00B /* ViewController.swift in Sources */,
 				8E72160627C4BA0000DAE00B /* AppDelegate.swift in Sources */,
+				8E72163E27C4D82800DAE00B /* HaseOperation.swift in Sources */,
 				8E72163727C4BCAC00DAE00B /* ATM.swift in Sources */,
 				8E72160827C4BA0000DAE00B /* SceneDelegate.swift in Sources */,
 			);

@@ -20,12 +20,10 @@ class ViewController: UIViewController {
                        (.ten, 10000)])
         
         print(atm.withdraw(1305))
-        print(atm.withdraw(1300))
-        print(atm.withdraw(1000000))
-        print(atm.withdraw(1000000))
-        print(atm.withdraw(100000))
-        print(atm.withdraw(100000))
-        print(atm.withdraw(500000))
+        
+        let haseOper = HaseOperation("Best Door")
+        haseOper.open()
+        haseOper.close()
     }
 }
 
